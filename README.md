@@ -24,5 +24,6 @@
   ![alt text](https://github.com/MatheusFilipeFreitas/AppleBR-Clone/blob/master/img/%231.png)
   
   - 2
+ 
   ![alt text](https://github.com/MatheusFilipeFreitas/AppleBR-Clone/blob/master/img/%232.png) 
   
