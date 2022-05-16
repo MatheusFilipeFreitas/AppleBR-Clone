@@ -1,0 +1,145 @@
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'SF Pro Text', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    height: 4.6vh;
+    background-color: #303030;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+header .content .nav-header {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: 100vw;
+    list-style: none;
+    align-items: center;
+}
+
+header .content .nav-header li:hover{
+    color: rgba(255, 255, 255, 0.904);
+}
+header .content .nav-header i:hover {
+    color: rgba(255, 255, 255, 0.904);
+}
+
+header .content i {
+    font-size:  1rem;
+}
+
+header .content .nav-header li{
+    cursor: pointer;
+    font-size:  0.69rem;
+    margin-left: 45px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 5.5vh;
+    width: 100vw;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+    display: flex;
+    justify-content: center;
+}
+
+section .content {
+    display: flex;
+    height: 5.5vh;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+section .content span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 0;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+section .content .group {
+    position: absolute;
+    right: 0;
+}
+
+section .content .group ul{
+    list-style: none;
+    height: 5.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+section .content .group ul li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+section .content .group ul li:hover{
+    color: rgb(29, 101, 235);
+}
+
+section .content .group ul li button{
+    background: rgba(1, 75, 212, 0.89);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 8px;
+    color: rgba(255, 255, 255, 0.959);
+    cursor: pointer;
+}
+
+section .content .group ul li button:hover{
+    background: rgb(29, 101, 235);
+}
+
+section .content .group ul #active{
+    cursor: default;
+    color: rgba(136, 136, 136, 0.767);
+}
+
+.iphone12 {
+    width: 100vw;
+    height: 5.9vh;
+    background: rgba(136, 136, 136, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.iphone12 #saiba-mais {
+    color: rgb(55, 126, 233);
+    text-decoration: none;
+}
+
+.iphone12 #saiba-mais:hover {
+    border-bottom: 1px solid;
+}
+
+.iphone12 span i{
+    font-size: 0.6rem;
+    color: rgb(55, 126, 233);
+    cursor: pointer;
+}
